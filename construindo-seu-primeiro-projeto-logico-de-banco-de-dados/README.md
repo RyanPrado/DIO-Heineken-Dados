@@ -5,7 +5,7 @@ Neste projeto montamos uma simulação simples de uma estrutura de banco de dado
 ## Projeto Conceitual
 Abaixo você pode visualizar o relacionamento entre as tabelas para mais detalhes abra o [drawio](ER.drawio), você acessa-lo pela web, através de [app.diagrams.net](https://app.diagrams.net).
 
-::: mermaid
+```mermaid
 erDiagram
     CLIENT ||--|{ ORDERS : gera
     CLIENT ||--|{ PAYMENTS : contem
@@ -19,7 +19,7 @@ erDiagram
     AFFILIATE ||--|{ AFFILIATE_PRODUCT : gera 
     STOCK ||--|{ STOCK_PRODUCT : gera 
     SUPPLIER ||--|{ SUPPLIER_PRODUCT : gera 
-:::
+```
 
 ## Projeto Lógico
 Para facilitar o entendimento os projeto logico foi separado em 3 categorias
